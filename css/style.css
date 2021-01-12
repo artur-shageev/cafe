@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 376px;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.header {
+  background-image: url(../img/FEND-Coffee-latte-art-3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  margin: 0 auto;
+  height: 500px;
+  border: 1px solid red;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  border: 1px solid red;
+}
+.menu {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  border: 1px solid red;
+}
+
+nav li a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+/* Block about */
+.about__wrapper {
+  background: white;
+}
+
+.about__main {
+  width: 327px;
+  margin: 0 24px;
+  position: relative;
+}
+.about__main:first-child {
+  margin-top: 60px;
+  height: 382px;
+}
+.about__main:last-child {
+  margin-top: 40px;
+  height: 340px;
+}
+.about__main--text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.about__main--img img {
+  
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  
+}
+.about__main--img-first img
+{
+  width: 241px;
+  height: 182px;
+  top: 200px;
+  left: 86px;
+}
+
+.about__main--img-second img{
+  width: 241px;
+  height: 160px;
+  bottom: 0%;
+  left: 0%;
+}
+
+.about__text--title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 34px;
+}
+
+.about__text--body {
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about__text--footer {
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 21px;
+}
+
+.about__text--footer div:nth-child(2) {
+  padding-right: 10%;
+}
+
+@media (min-width: 576px) {
+  .menu {
+    border: 1px solid blue;
+  }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (min-width: 1920px) {
+  .header {
+    height: 681px;
+    max-width: 1440px;
+  }
+}
