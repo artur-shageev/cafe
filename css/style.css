@@ -15,29 +15,33 @@ body {
 
 .container {
   margin: 0 auto;
-  border: 1px solid red;
+  
 }
 .header {
   background-image: url(../img/FEND-Coffee-latte-art-3.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   margin: 0 auto;
   height: 500px;
-  border: 1px solid red;
+  
 }
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0;
-  border: 1px solid red;
+  
 }
 .menu {
-  padding: 0;
+  padding-right: 25.5px;
   display: flex;
   list-style: none;
-  border: 1px solid red;
+  
+}
+.logo {
+  padding-left: 24px;
+  padding-top: 10px;
 }
 
 nav li a {
@@ -46,6 +50,46 @@ nav li a {
   font-size: 18px;
   line-height: 21px;
   color: #ffffff;
+}
+
+
+.header__text--title {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 75px;
+color: white;
+padding-left: 78px;
+padding-top: 138px;
+}
+
+.header__text--body {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: white;
+padding-left: 100px;
+
+}
+
+button {
+
+  background: #1A1A1A;
+border: 2px solid #1A1A1A;
+width: 163px;
+height: 48px;
+color: white;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+
+
 }
 
 /* Block about */
@@ -121,8 +165,7 @@ nav li a {
 }
 
 @media (min-width: 576px) {
-  .menu {
-    border: 1px solid blue;
+  
   }
 }
 @media (min-width: 768px) {
